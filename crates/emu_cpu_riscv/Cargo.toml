@@ -1,0 +1,11 @@
+[package]
+name = "emu_cpu_riscv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+emu_utils = { path = "../emu_utils" }
+emu_macros = { path = "../emu_macros" }
+emu_cpu = { path = "../emu_cpu" }
